@@ -21,7 +21,7 @@ fun MainOnBoarding(navController: NavController, store: StoreBoarding){
     val items= ArrayList<PageData>()
     items.add(
         PageData(
-            R.raw.page1,
+            R.raw.page3,
             "Titulo 1",
             "Descripcion 1"
         )
@@ -35,7 +35,7 @@ fun MainOnBoarding(navController: NavController, store: StoreBoarding){
     )
     items.add(
         PageData(
-            R.raw.page3,
+            R.raw.page1,
             "Titulo 3",
             "Descripcion 3"
         )
