@@ -2,6 +2,7 @@ package com.example.boardingapp.onBoardViews
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
@@ -46,5 +47,5 @@ fun MainOnBoarding(navController: NavController, store: StoreBoarding){
         initialPage = 0
     )
 
-    OnBoardingPager(item=items, pagerState = pagerState, modifier = Modifier.fillMaxWidth().background(Color.White), navController, store)
+    OnBoardingPager(item=items, pagerState = pagerState, modifier = Modifier.fillMaxWidth().fillMaxHeight().background(Color.White), navController, store)
 }

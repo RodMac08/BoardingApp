@@ -31,7 +31,7 @@ fun OnBoardingPager(
     navController: NavController,
     store: StoreBoarding
 ) {
-    Box(modifier = Modifier){
+    Box(modifier = modifier){
         Column (
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
